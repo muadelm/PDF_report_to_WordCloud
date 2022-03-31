@@ -1,4 +1,4 @@
-# PDF_report_to_Wordbag
+# PDF_report_to_WordCloud
 
 The purpose of the work is to take in a PDF report and produce a word cloud to help market players and researchers get the main theam quickly. 
 
