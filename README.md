@@ -17,3 +17,5 @@ The work uses the following python packages :
 * numpy
 * nltk
 * BeautifulSoup
+
+In addition, documents added that highlight using the concept of generating wordcloud on news articles headlines and text.
