@@ -6,7 +6,12 @@ def doc_to_cloud(doc_location, stem):
     The return is a word cloud of the desired document
     
     """
-        
+    def getPageCount(doc_location):
+        pdfFileObj = open(doc_location, 'rb')
+        pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
+        pages = pdfReader.numPages
+        return pages    
+    
     numPages = getPageCount(doc_location)
     
     text_total = " "
